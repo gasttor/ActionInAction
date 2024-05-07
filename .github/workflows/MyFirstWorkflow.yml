@@ -17,6 +17,6 @@ jobs:
 
       - name: List files in repository
         run: |
-          echo "::debug::Starting Listing - DEBUG MESSAGE"
+          ::debug::Starting Listing - DEBUG MESSAGE
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
